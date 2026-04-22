@@ -34,8 +34,11 @@ This version has **no answers included** — use it as a pure self-test. Write y
 **Question 1.** Your workspace has high concurrency enabled for notebooks. Multiple data engineers complain that their Spark sessions interfere with each other when they import different versions of the same Python library. What should you configure?
 
 A. Disable high concurrency for notebooks
+
 B. Increase the executor count in the default pool
+
 C. Create separate environments and attach them to the relevant notebooks
+
 D. Move each notebook to its own workspace
 
 -----
